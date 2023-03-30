@@ -1,0 +1,31 @@
+# Links de utilidad para aprender Python
+
+- https://elpythonista.com/python
+- https://es.wikipedia.org/wiki/Python
+- https://tutorial.djangogirls.org/es/python_installation/
+- https://unipython.com/mejores-interpretes-compiladores-de-python-online/
+- https://docs.anaconda.com/anaconda/install/
+- https://www.programaenpython.com/miscelanea/entornos-de-desarrollo-para-python/
+- https://elpythonista.com/ide-para-python
+- https://docs.python.org/3/tutorial/introduction.html#numbers
+- https://elpythonista.com/variables-python
+- https://elpythonista.com/tipos-numericos-int-float-complex-bool
+- https://www.mclibre.org/consultar/python/lecciones/python-booleanos.html
+- https://www.mclibre.org/consultar/python/lecciones/python-operaciones-matematicas.html
+- https://docs.python.org/3/tutorial/introduction.html#strings
+- https://elpythonista.com/string-en-python
+- https://docs.python.org/3/tutorial/introduction.html#lists
+- https://www.mclibre.org/consultar/python/lecciones/python-entrada-teclado.html
+- https://www.mclibre.org/consultar/python/lecciones/python-salida-pantalla.html
+- https://entrenamiento-python-basico.readthedocs.io/es/latest/leccion7/entrada_salida.html#scripts-con-argumentos
+- https://docs.python.org/3/tutorial/inputoutput.html#fancier-output-formatting
+- https://docs.python.org/3/tutorial/controlflow.html#if-statements
+- https://docs.python.org/3/tutorial/controlflow.html#
+- https://www.mclibre.org/consultar/python/lecciones/python-for.html
+- https://www.mclibre.org/consultar/python/lecciones/python-for-2.html
+- https://docs.python.org/3/tutorial/controlflow.html#
+- https://www.mclibre.org/consultar/python/lecciones/python-while.html
+- https://www.python.org/dev/peps/pep-0008/
+- https://uco.instructure.com/courses/143/files/5364?wrap=1
+- https://docs.python.org/3/tutorial/controlflow.html#
+- https://www.mclibre.org/consultar/python/lecciones/python-funciones-1.html

@@ -1,0 +1,64 @@
+# Juan José Méndez Torrero (i42metoj@uco.es)
+
+# Para la realización de esta tarea, hemos utilizado las posiciones del vector peliculas
+# para poder calcular la más vista del mes y las que tuvieron más de 500 espectadores durante
+# la primera y la tercera semana
+
+
+# Creamos el vector de peliculas
+peliculas <- c(
+  "Kill Bill Vol. 1",
+  "The Avengers",
+  "Up",
+  "E.T",
+  "Fight Club",
+  "Star Wars",
+  "Avatar",
+  "Titanic",
+  "Spider-Man: No Way Home",
+  "Jurassic World"
+)
+
+print("Las peliculas del mes han sido:")
+print(peliculas)
+
+# Generamos un vector aleatorio con 10 enteros de 1 a 1000 para la primera semana
+semana_1 <- c(sample.int(1000, 10))
+print("Audiencia durante la primera semana:")
+print(semana_1)
+
+# Generamos un vector aleatorio con 10 enteros de 1 a 1000 para la primera semana
+semana_2 <- c(sample.int(1000, 10))
+print("Audiencia durante la segunda semana:")
+print(semana_2)
+
+# Generamos un vector aleatorio con 10 enteros de 1 a 1000 para la primera semana
+semana_3 <- c(sample.int(1000, 10))
+print("Audiencia durante la tercera semana:")
+print(semana_3)
+
+# Generamos un vector aleatorio con 10 enteros de 1 a 1000 para la primera semana
+semana_4 <- c(sample.int(1000, 10))
+print("Audiencia durante la cuarta semana:")
+print(semana_4)
+
+# Creamos dos vectores, uno para almacenar la suma de espectadores de todo el mes
+# y el segundo para almacenar sólo los espectadores de la primera y tercera semana
+total_por_mes <- c()
+total_primera_tercera <- c()
+
+# Recorremos los vectores que son de misma longitud que el vector peliculas y 
+# calculamos la suma de espectadores
+for (i in 1:10){
+  total_por_mes[i] <- semana_1[i] + semana_2[i] + semana_3[i] + semana_4[i]
+  total_primera_tercera[i] <- semana_1[i] + semana_3[i]
+}
+
+# Caculamos, con la función which.max, la posición cuyo valor es el máximo del vector total_por_mes para
+# saber qué película es la más vista
+print(paste("La pelicula más vista del mes ha sido: ", peliculas[which.max(total_por_mes)]))
+
+# Calculamos, utilizando la función which, qué posición del vector total_primera_tercera
+# superó el valor 500
+print("Peliculas con mas de 500 espectadores durante la primera y tercera semanas: ")
+print(peliculas[which(total_primera_tercera > 500)])
